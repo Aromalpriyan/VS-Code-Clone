@@ -8,7 +8,7 @@
 ![image](./Tablet.png)
 
 ## 📋Overview
-<p>This project is a Visual Studio Code landing page clone, built using HTML, Tailwind CSS, and Font Awesome.
+<p>This project is a Visual Studio Code landing page clone, built using HTML, Tailwind CSS, and Font Awesome.</p>
 <p>It replicates the modern design and responsiveness of the official VS Code homepage, featuring multiple sections like download buttons, AI features, extensions, and more.<p>
 
 ## 🚀Technologies Used
