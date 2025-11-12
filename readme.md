@@ -7,70 +7,50 @@
 ## Tablet
 ![image](./Tablet.png)
 
-## HTML Syntax Summary
-##### <p>This HTML file builds a VS Code–themed landing page clone using Tailwind CSS for styling and Font Awesome for icons. It’s a responsive dark-mode promotional page with nav, hero section, feature cards, banners, language and extension showcases, and a footer.<p>
+## 📋Overview
+<p>This project is a Visual Studio Code landing page clone, built using HTML, Tailwind CSS, and Font Awesome.
+<p>It replicates the modern design and responsiveness of the official VS Code homepage, featuring multiple sections like download buttons, AI features, extensions, and more.<p>
 
+## 🚀Technologies Used
+<ul> 
+<li>HTML5 — Structure and semantic layout</li>
+<li>Tailwind CSS (via CDN) — Styling and responsive design</li>
+<li>Font Awesome — Icons for UI elements</li>
+<li>Responsive Design — Works across mobile, tablet, and desktop screens</li>
+</ul>
+
+## 🧩Key Features
+#### <ul>
+**<li>Navigation Bar:</li>**
+<p>Responsive header with links, search bar, and download button.</p>
+
+**<li>Hero Section:</li>**
+<p>Highlighted title and “Download for Windows” button.</p>
+
+**<li> AI Integration Section:</li>**     
+<P>Displays cards with model info such as GPT-5, Claude, etc.</p>
+
+**<li>Extensions Showcase:</li>** 
+<p>Grid layout displaying popular extensions like Python, Jupyter, and GitLens.</p>
+
+**<li>Language Support:</li>** 
+<p>Visual list of supported programming languages.</p>
+
+**<li>Feature Highlights:</li>** 
+<p>Cards detailing features like Terminal, Debugging, Git Integration, Themes, and more.</p>
+
+**<li>Footer:</li>** 
+<p>Includes social media icons and Microsoft branding.</p>
+</ul>
+
+## 📂Structure
 ```
-<!DOCTYPE html> — HTML5 document declaration
-<html lang="en"> — English language page
-
-<head> — metadata + imports
-  - UTF-8 charset + viewport for responsiveness
-  - Tailwind CSS via CDN
-  - Font Awesome icons via CDN
-  - <title>VS Code Clone</title>
-</head>
-
-<body class="bg-[#0d1117]"> — dark theme background
-
-<nav> — top navigation bar
-  - Left: logo + “Visual Studio Code” + menu links (Docs, Updates, Blog, etc.)
-  - Right: theme icon, search box, “Download” button, hamburger menu for mobile
-</nav>
-
-<div> — version banner
-  - Shows latest VS Code release info with close (x) icon
-</div>
-
-<main>
-  <section> — hero section
-    - Title: “The open source AI code editor”
-    - “Download for Windows” button
-    - License + privacy info
-    - Hero image
-    - 3 feature cards: models, codebase expert, team AI
-  </section>
-
-  <section> — “Use AI for free” banner
-    - Text + Try Free button
-  </section>
-
-  <section> — feature sections
-    - “Agent mode”, “Next edit suggestions” with images
-  </section>
-
-  <section> — extensions grid
-    - Shows popular VS Code extensions (Python, Jupyter, GitLens, etc.)
-  </section>
-
-  <section> — “Code in any language”
-    - Language logos (JS, TS, Python, C++, HTML, etc.)
-  </section>
-
-  <section> — customization + remote coding
-    - Info about themes, profiles, GitHub Codespaces, etc.
-  </section>
-
-  <section> — “Rich features” grid
-    - Cards for terminal, debugging, version control, tasks, themes, etc.
-  </section>
-
-  <section> — footer
-    - Social media icons + support/privacy/terms links + Microsoft logo
-  </section>
-</main>
-</body>
-</html>
+vs-code-clone/
+├── index.html
+├── /imgi/                # Folder containing all image assets
+│   ├── imgi_1_theme-light copy.svg
+│   ├── imgi_5_hero-poster-dark.webp
+│   ├── imgi_7_an-expert-on-your-codebase-dark.webp
+│   ├── ... etc.
+└── README.md
 ```
-
-
